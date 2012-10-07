@@ -1,0 +1,24 @@
+
+NeHeGL - SDL port
+
+TODO List:
+----------
+
+Win32:
+
+- Process all events unhandled by SDL by using SDL_SetEventFilter() and 
+  SDL_SysWMEvent
+- Toggle Fullscreen
+
+Linux:
+
+- Implement the ASK_FULLSCREEN MessageBox
+
+All:
+
+- Include Date/Time in logging
+- Setup a fancy icon using SDL_SetIcon()
+- Extend texting to all platforms where OpenGL/SDL coexist (Solaris/BeOS/Mac/ecc)
+- Add sprite blits to the example, to mix 2D and 3D
+
+SnowDruid '01
